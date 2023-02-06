@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="start-screen hide">
+            <h1 class="heading">Тестирование</h1>
+            <div class="settings">
+                <label for="num-questions">Колличество вопросов:</label>
+                <select name="" id="num0questions">
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="25">25</option>
+                    <option value="30">30</option>
+                </select>
+                <label for="category">Тема:</label>
+                <select name="" id="category">
+                    <option value="">Любая</option>
+                    <option value="1">PHP</option>
+                    <option value="2">JS</option>
+                    <option value="3">Python</option>
+                    <option value="4">C#</option>
+                    <option value="5">Swift</option>
+                </select>
+                <label for="difficulty">Сложность:</label>
+                <select name="" id="difficulty">
+                    <option value="">Любая</option>
+                    <option value="easy">Легкая</option>
+                    <option value="medium">Средняя</option>
+                    <option value="hard">Сложная</option>
+                </select>
+                <label for="time">Время на вопрос:</label>
+                <select name="" id="time">
+                    <option value="10">10 секунд</option>
+                    <option value="15">15 секунд</option>
+                    <option value="20">20 секунд</option>
+                    <option value="25">25 секунд</option>
+                    <option value="30">30 секунд</option>
+                    <option value="60">60 секунд</option>
+                </select>   
+            </div>
+            <button class="btn-start">Начать тестирование</button>
+        </div>
+        <div class="quiz">
+            <div class="timer">
+                <div class="progress">
+                    <div class="progress-bar"></div>
+                    <span class="progress-text">50</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" ></script>
+</body>
+</html>
