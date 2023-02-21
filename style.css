@@ -1,5 +1,7 @@
+/* @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css); */
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
-@import url(https://fonts.googleapis.com/css);
+
 *{
     margin: 0;
     padding: 0;
@@ -181,4 +183,27 @@ select {
 .btn.next {
     /*Будет видна после ответа на вопрос, то есть выбран ответ и нажата кнопка Ответить(submit) */
     display: none;
+}
+.end-screen .score {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.end-screen .score-text {
+    color: #a2aace;
+    font-size: 16px;
+    margin-bottom: 120px;
+
+}
+
+@media (max-width: 468px) {
+    .container {
+        min-height: 100vh;
+        max-width: 100%;
+        border-radius: 0;
+        
+
+    }
 }
